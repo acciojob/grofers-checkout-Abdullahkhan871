@@ -13,6 +13,7 @@ const getSum = () => {
     totalPrice += +t.innerHTML;
   }
   td.innerHTML = totalPrice;
+  td.id = "ans";
   tr.append(td);
   table.append(tr);
 };
